@@ -10,6 +10,8 @@ Static site for Elluryen (https://www.tiktok.com/@elluryen). No build step: Clou
 
 ## Cloudflare settings
 
+- Live at: https://elluryen-site.bajsic.workers.dev (until buyelluryen.com is connected)
+- Cloudflare account: Bajsic@gmail.com's Account (Worker `elluryen-site`)
 - Connected to this repo through Cloudflare Workers Builds: every push to `main` deploys
 - Build command: none
 - Deploy command: `npx wrangler deploy`
@@ -17,4 +19,4 @@ Static site for Elluryen (https://www.tiktok.com/@elluryen). No build step: Clou
 ## Before launch
 
 - `robots.txt` currently blocks search engines and the placeholder is noindex; switch both when the real site goes live, and add `sitemap.xml`
-- Add the custom domain in Cloudflare (Workers → elluryen-site → Settings → Domains & Routes)
+- Add buyelluryen.com to Cloudflare, then attach it as a custom domain (Workers → elluryen-site → Settings → Domains & Routes)
