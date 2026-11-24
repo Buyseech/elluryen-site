@@ -4,7 +4,8 @@ Static site for Elluryen (https://www.tiktok.com/@elluryen). No build step: Clou
 
 ## Where things are
 
-- `public/index.html`: placeholder page only (marked noindex) until the real site is built
+- `public/index.html`: the homepage ("Sylvan Grove" design, still marked noindex)
+- `public/assets/img/`: Elluryen portraits (WebP, transparent) and face crops
 - `public/404.html`, `robots.txt`, `_headers`: standard site files
 - `wrangler.jsonc`: tells Cloudflare to publish the `public/` folder
 
